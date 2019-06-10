@@ -1,6 +1,7 @@
-#!/bin/bash]
+#!/bin/bash
 
-mkdir -p /tmp/nbgraderExchange
+mkdir -p /srv/nbgrader/exchange
+#/tmp/nbgraderExchange
 
 jupyter nbextension install --sys-prefix --py nbgrader --overwrite
 jupyter nbextension enable --sys-prefix --py nbgrader
