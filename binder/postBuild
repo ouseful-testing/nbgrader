@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#mkdir -p /tmp/nbgraderExchange
-
 jupyter nbextension install --sys-prefix --py nbgrader --overwrite
 jupyter nbextension enable --user formgrader/main --section=tree
 
