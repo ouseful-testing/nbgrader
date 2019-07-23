@@ -1,1 +1,1 @@
-c.Exchange.root = "/tmp/nbgraderExchange"
+#c.Exchange.root = "/tmp/nbgraderExchange"
