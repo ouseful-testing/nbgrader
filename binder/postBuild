@@ -1,6 +1,8 @@
 #!/bin/bash
 
-#!/bin/bash
+#Need to make a directory that matches the one assigned in nbgrader_config.py to c.CourseDirectory.root
+#This should really be caught by the nbgrader_config.py handler?
+mkdir -p demoCourse
 
 jupyter nbextension install --sys-prefix --py nbgrader --overwrite
 jupyter nbextension enable --user formgrader/main --section=tree
