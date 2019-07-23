@@ -2,7 +2,9 @@
 
 #Need to make a directory that matches the one assigned in nbgrader_config.py to c.CourseDirectory.root
 #This should really be caught by the nbgrader_config.py handler?
-mkdir -p demoCourse
+#An error is thrown the first time you create a new assignment in the formgrader
+# and then try to open the assignment folder if the source subdirectory is not created as well
+mkdir -p demoCourse/source
 
 jupyter nbextension install --sys-prefix --py nbgrader --overwrite
 jupyter nbextension enable --user formgrader/main --section=tree
