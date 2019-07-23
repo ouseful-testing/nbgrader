@@ -1,1 +1,3 @@
-c.Exchange.root = "/tmp/nbgraderExchange"
+c = get_config()
+
+c.CourseDirectory.root = 'demoCourse'
