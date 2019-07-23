@@ -1,1 +1,1 @@
-nbgrader
+git+https://github.com/jupyter/nbgrader.git
